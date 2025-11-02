@@ -1,7 +1,7 @@
 # JVBE__BT_SQL
 CODE SESSION 2 KHA:
 
----
+```
 Set search_path to library
 
 create table Books(
@@ -15,4 +15,4 @@ create table Books(
  \c ten database :chuyen den database do
 \dn :xem tat ca cac schema
 \d tenschme.ten table
----
+```
