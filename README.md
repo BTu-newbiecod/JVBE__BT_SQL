@@ -1,1 +1,9 @@
 # JVBE__BT_SQL
+CODE:
+```
+ALTER TABLE Books ADD COLUMN genre VARCHAR(100);
+ALTER TABLE Books RENAME COLUMN available TO is_available;
+ALTER TABLE Members DROP COLUMN email;
+DROP TABLE IF EXISTS sales.OrderDetails CASCADE;
+
+```
