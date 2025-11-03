@@ -67,5 +67,7 @@ alter table Detail_Forms add primary key(book_id,form_id)
 -- THEM INDEX CHO COT STATUS FORM 
 create index idx_form_status on Forms(status);
 
+---can them trigger sau nay khi học
+
 
 ```
